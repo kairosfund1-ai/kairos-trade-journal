@@ -1,0 +1,10 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "node server.js"
+
+[[services]]
+name = "kairos-backend"
+[[services.ports]]
+port = 3001
